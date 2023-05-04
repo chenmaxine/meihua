@@ -1,0 +1,85 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index"	
+		},
+		{
+			"path": "pages/talent/index"
+		},
+		{
+			"path": "pages/talent/detail"
+		},
+		{
+			"path": "pages/cate/index"
+		},
+		{
+			"path": "pages/search/index"
+		},
+		{
+			"path": "pages/search/result"
+		},
+		{
+			"path": "pages/list/index"
+		},
+		{
+			"path": "pages/detail/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/user/index"
+		},
+		{
+			"path": "pages/user/collect"
+		}
+        ,{
+            "path" : "pages/index/webview"
+        },
+		{
+			"path":"pages/index/richtext"
+		},
+		{
+			"path": "pages/detail/layout2"
+		},
+		{
+			"path":"pages/user/richtext"
+		},
+		{
+			"path":"pages/user/setting"
+		}
+    ],
+	// 修改窗口值
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "美画图库",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#fff"
+	},
+	// 修改底部导航
+	"tabBar": {
+	  "color": "#666666",
+	  "selectedColor": "#3D88FE",
+	  "borderStyle": "white",
+	  "backgroundColor": "#ffffff",
+	  "list": [{
+	      "pagePath": "pages/index/index",
+	      "iconPath": "static/images/home.png",
+	      "selectedIconPath": "static/images/home-active.png",
+	      "text": "首页"
+	    }
+		, {
+	      "pagePath": "pages/talent/index",
+	      "iconPath": "static/images/expert.png",
+	      "selectedIconPath": "static/images/expert-active.png",
+	      "text": "达人"
+	    }
+		, {
+	      "pagePath": "pages/user/index",
+	      "iconPath": "static/images/user.png",
+	      "selectedIconPath": "static/images/user-active.png",
+	      "text": "我的"
+	    }
+	  ]
+	}
+}
